@@ -43,7 +43,8 @@ function createRock(x) {
   rock.className = 'rock'
   rock.style.left = `${x}px`
 
-  var top = rock.style.top = 0
+  var top = 0
+  rock.style.top = top
 
   GAME.appendChild(rock)
 
